@@ -1,0 +1,40 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+.pub-cache/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+*.flutter-plugins
+*.lock
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Android
+android/.gradle/
+android/app/debug.keystore
+*.apk
+*.aar
+
+# iOS
+ios/Flutter/Flutter.podspec
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Runner/GeneratedPluginRegistrant.*
+ios/Runner.xcworkspace/
+ios/Podfile.lock
+ios/Flutter/Generated.xcconfig
+
+# Supabase keys / secrets
+lib/supabase_keys.dart
+.env
